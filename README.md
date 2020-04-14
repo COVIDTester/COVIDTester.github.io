@@ -1,1 +1,0 @@
-# COVIDTester.github.io
