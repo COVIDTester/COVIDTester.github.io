@@ -251,7 +251,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: #41228e !important;
+  background: #148CD1 !important;
 }
 
 .bg-gray {
@@ -732,7 +732,7 @@ textarea.form-control {
 }
 
 .section-on-footer {
-
+  margin-bottom: -250px;
 }
 
 .shadow-down {
