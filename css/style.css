@@ -10,7 +10,7 @@ VERSION:	Versoin Number
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700");
 @font-face {
-  font-family: 'BwNistaInt-xBd';
+  font-family: 'Roboto', sans-serif;
   src: url("../plugins/fonts/BwNistaInt-xBd.woff") format("woff");
   font-style: normal;
   font-display: swap;
@@ -18,9 +18,9 @@ VERSION:	Versoin Number
 
 body {
   line-height: 1.2;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 15px;
+  font-size: 30px;
   color: #4c4c4c;
 }
 
@@ -29,7 +29,7 @@ p, .paragraph {
   color: #4c4c4c;
   font-size: 15px;
   line-height: 1.8;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 p-lg, .paragraph-lg {
@@ -38,7 +38,7 @@ p-lg, .paragraph-lg {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Playfair Display", serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.2;
 }
 
@@ -81,7 +81,7 @@ h6, .h6 {
 /* Button style */
 .btn {
   font-size: 22px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 5px;
@@ -217,7 +217,7 @@ a:hover {
 
 .section-title {
   margin-bottom: 80px;
-  font-family: "BwNistaInt-xBd";
+  font-family: 'Roboto', sans-serif;
 }
 
 .bg-cover {
@@ -251,7 +251,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: #148CD1 !important;
+  background: #A2D4D1 !important;
 }
 
 .bg-gray {
@@ -327,11 +327,11 @@ a:hover {
 }
 
 .font-secondary {
-  font-family: "Playfair Display", serif !important;
+  font-family: 'Roboto', sans-serif;
 }
 
 .font-tertiary {
-  font-family: "BwNistaInt-xBd" !important;
+  font-family: 'Roboto', sans-serif;
 }
 
 .shadow {
@@ -426,7 +426,7 @@ textarea.form-control {
 }
 
 .navigation.nav-bg {
-  background-color: #41228e;
+  background-color: #233329;
   padding: 15px 100px;
 }
 
@@ -439,12 +439,12 @@ textarea.form-control {
 @media (max-width: 991px) {
   .navigation {
     padding: 20px;
-    background: #41228e;
+    background: #233329;
   }
 }
 
 .navbar .nav-item .nav-link {
-  font-family: "BwNistaInt-xBd";
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   padding: 15px;
 }
@@ -520,7 +520,7 @@ textarea.form-control {
 }
 
 #l9 {
-  bottom: 100px;
+  bottom: 500px;
   right: -10px;
 }
 
@@ -728,11 +728,11 @@ textarea.form-control {
 /* /testimonial */
 /* footer */
 .footer-section {
-  padding-top: 200px;
+  padding-top: 0px;
 }
 
 .section-on-footer {
-  margin-bottom: -250px;
+
 }
 
 .shadow-down {
@@ -776,7 +776,7 @@ blockquote {
 }
 
 .content strong {
-  font-family: "Playfair Display", serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
   font-weight: normal;
   color: #000;

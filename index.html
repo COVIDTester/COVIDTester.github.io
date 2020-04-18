@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zxx">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 <head>
   <meta charset="utf-8">
@@ -58,7 +59,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-11 mx-auto">
-        <h1 class="text-white font-tertiary">COVID Tester</h1>
+        <h1 class="text-white font-tertiary">COVID Testing iOS App: Find Testing Locations</h1>
+          <h2 class="text-white font-tertiary">Available on the Apple Store</h2>
       </div>
     </div>
   </div>
@@ -67,25 +69,25 @@
     <img src="images/illustrations/dots-cyan.png" alt="bg-shape">
   </div>
   <div class="layer" id="l3">
-    <img src="images/illustrations/leaf-orange.png" alt="bg-shape">
+    <img src="images/illustrations/background.png" alt="bg-shape">
   </div>
   <div class="layer" id="l4">
-    <img src="images/illustrations/dots-orange.png" alt="bg-shape">
+    <img src="images/illustrations/background.png" alt="bg-shape">
   </div>
   <div class="layer" id="l5">
-    <img src="images/illustrations/leaf-yellow.png" alt="bg-shape">
+    <img src="images/illustrations/background.png" alt="bg-shape">
   </div>
   <div class="layer" id="l6">
-    <img src="images/illustrations/leaf-cyan.png" alt="bg-shape">
+    <img src="images/illustrations/phone.png" alt="bg-shape">
   </div>
   <div class="layer" id="l7">
-    <img src="images/illustrations/dots-group-orange.png" alt="bg-shape">
+    <img src="images/illustrations/background.png" alt="bg-shape">
   </div>
   <div class="layer" id="l8">
-    <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape">
+    <img src="images/illustrations/location.png" alt="bg-shape">
   </div>
   <div class="layer" id="l9">
-    <img src="images/illustrations/leaf-cyan-2.png" alt="bg-shape">
+    <img src="images/illustrations/medical-symbol.png" alt="bg-shape">
   </div>
   <!-- social icon -->
   <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
@@ -122,27 +124,54 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <p class="font-secondary paragraph-lg text-dark">We want to ensure that our app is able to provide the most complete selection of testing
+        <p class="font-secondary paragraph-lg text-dark">We want to ensure that our app is able to provide information for the most complete selection of testing
         centers possible. If you are aware of any testing locations that are not shown in the app please complete this form so we
         can update the database that we are referencing as quickly as possible. </h2>
       </div>
       <div class="col-lg-8 mx-auto">
         <div class="bg-white rounded text-center p-5 shadow-down">
           <h4 class="mb-80">Contact Form</h4>
-          <form action="#" class="row">
-            <div class="col-md-6">
-              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
+          <form id="test-form">
+
+            <div>
+              <label>City of Location</label>
+              <input type="text" name="form_field_1" placeholder="City of Location"/>
             </div>
-            <div class="col-md-6">
-              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
+
+            <div>
+              <label>State of Location</label>
+              <input type="text" name="form_field_2" placeholder="State of Location"/>
             </div>
-            <div class="col-12">
-              <textarea name="message" id="message" class="form-control px-0 mb-4"
-                placeholder="Type Message Here"></textarea>
+
+            <div>
+              <label>Address</label>
+              <input type="text" name="form_field_3" placeholder="Address"/>
             </div>
-            <div class="col-lg-6 col-10 mx-auto">
-              <button class="btn btn-primary w-100">send</button>
+
+            <div>
+              <label>Name of Location</label>
+              <input type="text" name="form_field_4" placeholder="Name of Location"/>
             </div>
+
+            <div>
+              <label>Phone Number of Location</label>
+              <input type="text" name="form_field_1" placeholder="Phone Number of Location"/>
+            </div>
+
+            <div>
+              <label>Explain how you know this information is accurate</label>
+              <input type="text" name="form_field_1" placeholder="Explain how you know this information is accurate"/>
+            </div>
+
+            <div>
+              <label>Your Email</label>
+              <input type="text" name="form_field_1" placeholder="Your Email"/>
+            </div>
+
+            <div>
+              <button type="submit"id="submit-form">Submit</button>
+            </div>
+
           </form>
         </div>
       </div>
@@ -204,25 +233,11 @@
 
 <!-- footer -->
 <footer class="bg-dark footer-section">
-  <div class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">alexandriastorm99@gmail.com</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary"></p>
-        </div>
-      </div>
-    </div>
-  </div>
   <div class="border-top text-center border-dark py-5">
     <p class="mb-0 text-light">Copyright ©<script>
         var CurrentYear = new Date().getFullYear()
         document.write(CurrentYear)
-      </script> a theme by <a href="https://themefisher.com">themefisher.com</a></p>
+      </script>COVID Testing</a></p>
   </div>
 </footer>
 <!-- /footer -->
