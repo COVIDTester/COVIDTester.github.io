@@ -1,6 +1,27 @@
 (function ($) {
     'use strict';
+    //Copy and Pasted Thing
+    jQuery('input[name="shuffle-filter"]').on('change', function (evt) {
+        var input = evt.currentTarget;
+        if (input.checked) {
+            myShuffle.filter(input.value);
+        }
+    });
 
+    var $form = $('form#test-form'),
+        url = 'https://script.google.com/macros/s/AKfycbxXtYW_P7D_vWDKrFPbSFphiGxmLKjxhEsYSFFuYZY_dwK4wZuW/exec'
+
+    $('#submit-form').on('click', function(e) {
+      e.preventDefault();
+      var jqxhr = $.ajax({
+        url: url,
+        method: "GET",
+        dataType: "json",
+        data: $form.serializeObject()
+      }).success(
+        // do something
+      );
+    })
 
 
     // Sticky Menu
@@ -146,28 +167,7 @@
     });
 
 
-    //Copy and Pasted Thing
-    jQuery('input[name="shuffle-filter"]').on('change', function (evt) {
-        var input = evt.currentTarget;
-        if (input.checked) {
-            myShuffle.filter(input.value);
-        }
-    });
 
-    var $form = $('form#test-form'),
-        url = 'https://script.google.com/macros/s/AKfycbxXtYW_P7D_vWDKrFPbSFphiGxmLKjxhEsYSFFuYZY_dwK4wZuW/exec'
-
-    $('#submit-form').on('click', function(e) {
-      e.preventDefault();
-      var jqxhr = $.ajax({
-        url: url,
-        method: "GET",
-        dataType: "json",
-        data: $form.serializeObject()
-      }).success(
-        // do something
-      );
-    })
 
 
 })(jQuery);
